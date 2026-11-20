@@ -1,0 +1,31 @@
+# Build
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Binaries & objects
+*.o
+*.a
+*.dylib
+*.so
+*.exe
+library_app
+library_tests
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+.cache/
+compile_commands.json
+
+# Data (keep structure, ignore runtime data)
+data/*.dat
+
+# macOS
+.DS_Store
